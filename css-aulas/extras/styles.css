@@ -38,7 +38,7 @@ table {
 h1 {
     color: blueviolet;
     font-weight: 900;
-    text-transform: capitalize;
+    text-transform: capitalize; // para deixar a primeira letra em caixa alta
     text-align: center;
     font-size: 4.6rem;
 }
@@ -58,7 +58,7 @@ h2 {
 p {
     font-size: 1.8rem;
     text-align: justify;
-    text-indent: 90px;
+    text-indent: 90px; // ele da um avanço no começo do texto
 }
 
 a {
@@ -82,7 +82,7 @@ a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    /* background-attachment: fixed; */
+    /* background-attachment: fixed; usado para fazer rolagem da tela */ 
 }
 
 ul, ol {
@@ -192,7 +192,7 @@ a {
     margin: auto;
     width: 80%;
     text-align: center;
-    text-decoration: none;
+    text-decoration: none; // efeito no texto
     transition: all .2s ease-in-out, background-color 1s ease-in-out;
 
     display: block;
